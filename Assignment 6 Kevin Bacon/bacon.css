@@ -1,0 +1,53 @@
+/*
+	Name: Ziming Guo
+	CSE 154
+	Section: AI by Daniel Nakamura
+	5/14/2014
+	Assignment #6
+
+	This file implements the other php file in this project.
+*/
+body {
+	font: 10pt Verdana, Arial, sans-serif;
+	margin: 0pt;
+}
+
+form, table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr {
+	background-color: white;
+}
+
+tr:nth-child(2n+2) {
+	background-color: #dad9d4;
+}
+
+table {
+	border-collapse:collapse;
+	border: 1px solid #dad9d4;
+}
+
+#banner, #w3c {
+    background-color: #100000;
+    color: white;
+    padding: 5px;
+}
+
+#main {
+	text-align: center;
+	background-image: url("http://webster.cs.washington.edu/students/ziming3/hw6/mainbackground.jpg");
+	background-repeat: repeat;
+	padding: 1em;
+}
+
+form {
+	width: 24em;
+}
+
+#title {
+	padding-left: 10em;
+	padding-right: 10em;
+}

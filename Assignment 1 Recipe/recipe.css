@@ -1,0 +1,54 @@
+/*
+	Name: Ziming Guo
+	CSE 154
+	Section: AI by Daniel Nakamura
+	4/9/2014
+	Assignment #1
+
+	This is the css file of pie.html. This file complements 
+	the pie.html.
+*/
+
+h1 span, h2 span{
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	text-decoration: underline;
+	letter-spacing: 0.25em
+}
+
+h1 {
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18pt;
+	text-align: left;
+	font-weight: normal;
+}
+
+blockquote {
+	background-color: #FFFFA8;
+	font-style: italic;
+}
+
+body {
+	color: #404040;
+	font-family: Georgia, Garamond, serif;
+	font-size: 11pt;
+	background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+}
+
+a {
+	color :#A4A400;
+}
+
+ul {
+	list-style-image: url("https://webster.cs.washington.edu/images/pie-icon.gif");
+}
+
+pre {
+	font-family: monospace;
+}

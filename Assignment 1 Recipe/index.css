@@ -1,0 +1,50 @@
+/*
+	Name: Ziming Guo
+	CSE 154
+	Section: AI by Daniel Nakamura
+	4/9/2014
+	Assignment #1
+
+	This is the css file of index.html. This file complements 
+	the index.html.
+*/
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: cyan;
+	font-family: Helvetica, Arial, "Times New Roman", Sans-serif;
+}
+
+body {
+	font-size: 16pt;
+	background-image: url("https://webster.cs.washington.edu/images/silverware.jpg");
+}
+
+#whole {
+	overflow: hidden;
+}
+
+#pie {
+	font-family: cursive;
+	margin-left: 80px;
+	float: left;
+	color: #CC3333;
+}
+
+#others {
+	font-family: cursive;
+	margin-top: 15em;
+	margin-right: 80px;
+	float: right;
+}
+
+#links {
+	margin-top: 10em;
+}
+
+span {
+	font-style: italic;
+	font-size: 20pt;
+	text-decoration: underline;
+}

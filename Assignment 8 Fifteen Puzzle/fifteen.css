@@ -1,0 +1,46 @@
+/*
+	Name: Ziming Guo
+	CSE 154
+	Section: AI by Daniel Nakamura
+	5/27/2014
+	Assignment #8
+
+	This is the css file of fiftenn puzzle project. This file complements 
+	the fifteem.html and fifteen.js
+*/
+body, button {
+	font-family: cursive;
+	text-align: center;
+	font-size: 14pt;
+}
+
+.tiles {
+	height: 90px;
+	width: 90px;
+	border: 5px solid black;
+	margin: 0px;
+	position: absolute;
+	background-image: url("background.jpg");
+	font-size: 40pt;
+	cursor: default;
+}
+
+#puzzlearea {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highlight {
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
+
+#gameWon {
+	font-size: 30px;
+	color: red;
+}
+

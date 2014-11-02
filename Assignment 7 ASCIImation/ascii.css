@@ -1,0 +1,47 @@
+/*
+	Name: Ziming Guo
+	CSE 154
+	Section: AI by Daniel Nakamura
+	5/21/2014
+	Assignment #7
+
+	This is the css file of ASCII project. This file complements 
+	the ascii.html
+*/
+body {
+	background-color: #CCCCFF;
+	font-family: sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1, textarea, #links {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 32pt;
+}
+
+textarea {
+	width: 90%;
+	height: 400px;
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+fieldset {
+	display: inline;
+	border: 5px solid black;
+	border-radius: 10px;
+	vertical-align: top;
+}
+
+legend {
+	text-align: left;
+}
+
+#links {
+	text-align: right;
+}

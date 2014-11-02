@@ -1,0 +1,158 @@
+/*
+Name: Ziming Guo
+CSE 154
+Section: AI by Daniel Nakamura
+4/23/2014
+Assignment #3
+
+This is the css file of movie.php. This file complements 
+the movie.php
+*/
+body {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 8pt;
+	margin: 0pt;
+	padding: 0pt;
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+}
+
+#up, #down, h1, #page {
+	text-align: center;
+}
+
+#up, #down, #links {
+	position: fixed;
+	right: 0px;
+}
+
+#up, #down {
+	height: 50px;
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	left: 0px;
+}
+
+#up {
+	top: 0px;
+}
+
+#down {
+	bottom: 0px;
+}
+
+h1, dt, .score, .quote {
+	font-weight: bold;
+}
+
+h1 {
+	margin-top: 72px;
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+#right, #page {
+	background-color: #A2B964;
+}
+
+#content {
+	overflow: hidden;
+	border: 4px gray solid;
+	border-radius: 20px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
+#right {
+	float: right;
+	width: 250px;
+	font-family: Arial, sans-serif;
+}
+
+dl {
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+
+dt {
+	margin-top: 10pt;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#left {
+	width: 550px;
+}
+
+.rating {
+	height: 83px;
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+}
+
+.score {
+	font-size: 48pt;
+	color: red;
+}
+
+.implement {
+	color: white;
+}
+
+.brand {
+	vertical-align: bottom;
+}
+
+.quote > img, .reviewer > img, .columns {
+	float: left;
+}
+
+.columns {
+	width: 47%;
+	margin-left: 2%;
+}
+
+.quote, .reviewer {
+	overflow: hidden;
+}
+
+.quote > img, .reviewer >img {
+	margin-right: 5px;
+}
+
+.quote {
+	padding: 8px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-color: #E8DC9B;
+}
+
+.reviewer {
+	margin-bottom: 20pt;
+}
+
+.reviewer > span {
+	font-style: italic;
+}
+
+#page {
+	clear: right;
+	padding: 5px;
+	margin: 0px;
+}
+
+#links {
+	bottom: 0px;
+	margin-bottom: 50px;
+}
+
+.validator{
+	opacity: 0.50;
+}
+
+.validator:hover {
+	opacity: 1.0;
+}

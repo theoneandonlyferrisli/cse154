@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		Name&#58; Ziming Guo
+		CSE 154
+		Section&#58; AI by Daniel Nakamura
+		5/21/2014
+		Assignment #7
+
+		This file is the homepage of ASCII Animation Viewer which can play several ASCII animation.
+	-->
+	<head>
+		<link href="ascii.css" type="text/css" rel="stylesheet" />
+		<script src="ascii.js" type="text/javascript"></script>
+		<script src="https&#58;//webster.cs.washington.edu/js/asciimation/animations.js" type="text/javascript"></script>
+		<script src="https&#58;//webster.cs.washington.edu/js/asciimation/gallery.js" type="text/javascript"></script>
+		<script src="myanimation.js" type="text/javascript"></script>
+		<title>
+			ASCIImation
+		</title>
+	</head>
+
+	<body>
+		<h1>
+			ASCII Animation Viewer
+		</h1>
+
+		<textarea rows="20" cols="80" id="text"></textarea>
+
+		<fieldset>
+			<legend>Play Controls&#58;</legend>
+			<input type="button" value="Start" id="start" />
+			<input type="button" value="Stop" id="stop" />
+		</fieldset>
+
+		<fieldset>
+			<legend>Animation&#58;</legend>
+			<select id="animation">
+				<option value="BLANK" selected="selected">Blank</option>
+				<option value="EXERCISE">Exercise</option>
+				<option value="JUGGLER">Juggler</option>
+				<option value="BIKE">Bike</option>
+				<option value="DIVE">Dive</option>
+				<option value="CUSTOM">Custom</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Size&#58;</legend>
+			<select id="size">
+				<option value="7">Tiny</option>
+				<option value="10">Small</option>
+				<option value="12" selected="selected">Medium</option>
+				<option value="16">Large</option>
+				<option value="24">Extra Large</option>
+				<option value="32">XXL</option>
+			</select>
+		</fieldset>
+
+		<fieldset>
+			<legend>Speed&#58;</legend>
+			<label><input type="radio" name="speed" value="50" /> Turbo</label>
+			<label><input type="radio" name="speed" value="250" checked="checked" /> Normal</label>
+			<label><input type="radio" name="speed" value="1500" /> Slo&#45;Mo</label>
+		</fieldset>
+
+		<div id="links">
+			<div>
+				<a href="https&#58;//webster.cs.washington.edu/validate-html.php">
+				<img src="https&#58;//webster.cs.washington.edu/images/w3c-html.png" alt="Valid HTML5" title="Valid HTML5" />
+				</a>
+			</div>
+
+			<div>
+				<a href="https&#58;//webster.cs.washington.edu/validate-css.php">
+				<img src="https&#58;//webster.cs.washington.edu/images/w3c-css.png" alt="Valid CSS" title="Valid CSS" />
+				</a>
+			</div>
+
+			<div>
+				<a href="https&#58;//webster.cs.washington.edu/jslint/?referer">
+				<img src="https&#58;//webster.cs.washington.edu/images/w3c-js.png" alt="Valid HTML5" title="Valid HTML5" />
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

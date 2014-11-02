@@ -1,0 +1,36 @@
+/*
+	Name: Ziming Guo
+	CSE 154
+	Section: AI by Daniel Nakamura
+	6/3/2014
+	Assignment #9
+
+	This is the css file of names.html
+	This file implements styles of several objects
+	This file meets the extra feature #1
+*/
+body, button {
+	font-family: Georgia, serif;
+	font-size: 12pt;
+}
+
+q {
+	font-style: italic;
+}
+
+.bar {
+	background-color: #FFBBBB;
+	width: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+td {
+	height: 250px;
+	vertical-align: bottom;
+}
+
+#errors {
+	font-style: italic;
+	color: red;
+}
