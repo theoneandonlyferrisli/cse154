@@ -1,5 +1,5 @@
 /*
-	Name: Ziming Guo
+	Name: Dongchang Hes
 	CSE 154
 	Section: AI by Daniel Nakamura
 	5/27/2014

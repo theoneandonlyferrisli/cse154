@@ -5,7 +5,7 @@ you are going to write, signup.php and matches.php.
 You can modify this file as necessary to move redundant code out to common.php.
 -->
 <!--
-	Name: Ziming Guo
+	Name: Dongchang He
 	CSE 154
 	Section: AI by Daniel Nakamura
 	4/30/2014

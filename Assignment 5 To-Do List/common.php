@@ -1,6 +1,6 @@
 <?php
 /*
-	Name: Ziming Guo
+	Name: Dongchang He
 	CSE 154
 	Section: AI by Daniel Nakamura
 	5/8/2014
